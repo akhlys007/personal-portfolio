@@ -48,7 +48,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const leftLists = ["React", "Express", "Typescript"];
   const rightLists = ["AWS", "NextJS", "AWS"];
 
   const [copied, setCopied] = useState(false);
@@ -78,9 +78,8 @@ export const BentoGridItem = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        background: "rgb(2,0,36)",
+        background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,103,121,1) 35%, rgba(8,73,88,1) 100%)"
       }}
     >
       {/* add img divs */}

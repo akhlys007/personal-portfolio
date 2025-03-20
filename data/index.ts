@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a NextJS Inventory Management Dashboard on AWS",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -173,38 +173,40 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Junior Product Engineer - Ecobodaa Mobility Ltd.",
+      desc: "Conducted firmware testing, database administration, PCB design, and troubleshooting for Bike IoT Modules and Battery Management Systems.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/exp1.webp",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      title: "Mechanical Engineering Intern - East African Breweries Ltd.",
+      desc: "Executed maintenance and repair tasks on chain conveyors, motors, and gearboxes, and conducted preventive maintenance on mechanical components.",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.webp",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      title: "Freelance Web Dev Project",
+      desc: "Led the dev of a website for a client, from initial concept to deployment on AWS.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.webp",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Mechatronics Engineering Intern - Kenya Civil Aviation Authority",
+      desc: "Performed routine maintenance on airspace surveillance, communication, and navigation systems, contributing to ATC system upgrades.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/exp4.webp",
     },
   ];
+  
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/akhlys007",
     },
     {
       id: 2,
@@ -213,5 +215,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/timothy-chelelgo-49872222b/",
     },
   ];
