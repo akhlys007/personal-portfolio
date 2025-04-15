@@ -23,8 +23,7 @@
     "react-lottie": "^1.2.10",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.139.2",
-    "three-globe": "^2.42.1"
+    "three": "^0.139.2"
   },
   "overrides": {
     "react-lottie": {
