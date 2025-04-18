@@ -11,7 +11,7 @@ type SpotlightProps = {
   smallWidth?: number;
   duration?: number;
   xOffset?: number;
-  fill?:string;
+  fill?: string;
   className?: string;
 };
 
